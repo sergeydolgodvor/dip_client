@@ -1,0 +1,183 @@
+@import 'antd/dist/antd.css';
+
+// Reset
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+img {
+  vertical-align: baseline;
+}
+//=======================//
+
+// .App {
+//   height: 100vh;
+// }
+
+h2 {
+  color: #667eea;
+}
+
+input,
+select,
+textarea {
+  background-color: #f3f4f6;
+  color: #636363;
+  border-radius: 13px;
+}
+
+textarea {
+  padding: 10px !important;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  margin: 0 auto;
+  min-height: 100px;
+  width: 100%;
+  max-width: 1250px;
+}
+
+.ant-steps-icon-dot {
+  background: #1ed070 !important;
+}
+
+.ant-steps-item-tail::after {
+  background: #e0e7ff !important;
+}
+
+.block-document {
+  width: 70%;
+  margin: auto;
+
+  h2 {
+    text-align: center !important;
+  }
+
+  .ant-input {
+    &:focus,
+    &:hover {
+      border-color: #6364a7;
+    }
+  }
+
+  .ant-btn-primary {
+    background-color: #6364a7;
+    border-color: #6364a7;
+
+    &:focus,
+    &:hover {
+      background-color: darken(#22235e, 0.01%);
+    }
+  }
+
+  .follow {
+    margin-bottom: 200px;
+
+    .ant-pagination {
+      display: none;
+    }
+  }
+
+  .ant-collapse-content-box {
+    position: relative;
+    margin-top: 90px;
+    padding: 0 93px;
+
+    .author-name {
+      position: absolute;
+      top: -67px;
+      left: 21px;
+      text-align: center;
+
+      &__fio {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .document-date-wrapper {
+    position: absolute;
+    top: -7px;
+    left: 18px;
+
+    .document-date {
+      margin-bottom: 23px;
+      text-align: center;
+    }
+  }
+}
+
+.ant-input-group-wrapper {
+  margin: 25px 0;
+}
+
+.upload-document {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 70px auto;
+  padding: 50px 0;
+  width: 300px;
+
+  border: 5px solid #6364a7;
+  border-style: dotted;
+
+  input,
+  button {
+    width: 50%;
+    margin: auto;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+}
+
+.ant-steps-item-process {
+  .ant-steps-item-container {
+    .ant-steps-item-icon {
+      background: #ff5722;
+      border-color: #ff3c00;
+    }
+  }
+}
+
+.ant-steps-item-finish {
+  .ant-steps-item-container {
+    .ant-steps-item-icon {
+      background: #1ed070;
+      border-color: #00ff77;
+
+      .ant-steps-icon {
+        color: #fff;
+      }
+    }
+  }
+}
+
+// .step-invisible {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   visibility: hidden;
+// }

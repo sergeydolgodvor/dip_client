@@ -1,0 +1,78 @@
+.edit-document {
+  display: flex;
+  justify-content: center;
+
+  .ant-card {
+    width: 500px !important;
+
+    input {
+      border: none;
+      background-color: transparent;
+      width: 330px;
+    }
+
+    .description {
+      h2 {
+        margin-bottom: 20px !important;
+      }
+
+      .responce-data {
+        margin-bottom: 45px;
+
+        h3 {
+          font-weight: bold;
+
+          span {
+            font-weight: 400;
+          }
+        }
+
+        .buttons {
+          display: flex;
+          justify-content: center;
+
+          .ant-btn {
+            margin: 0 10px;
+          }
+        }
+      }
+
+      .dispatch-data {
+        margin-bottom: 45px;
+
+        .buttons {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .ant-btn {
+            margin: 0 2px;
+
+            &:last-child {
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .ant-card-body {
+      display: flex;
+      flex-direction: column;
+      .ant-btn {
+        background-color: #6364a7;
+        border-color: #6364a7;
+
+        &.button-delete {
+          background-color: #d43535;
+          border-color: #d43535;
+        }
+
+        &.button-edit {
+          background-color: #d05818;
+          border-color: #d05818;
+        }
+      }
+    }
+  }
+}

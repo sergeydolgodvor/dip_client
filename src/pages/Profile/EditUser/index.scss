@@ -1,0 +1,81 @@
+.edit-user {
+  .go-back {
+    background: white;
+    margin: 20px;
+    font-size: 1.2rem;
+  }
+}
+.edit-user {
+  .col-left {
+    margin-top: 50px;
+
+    input {
+      background: #eee;
+    }
+
+    #isAdmin {
+      width: 20px;
+      height: 20px;
+      transform: translateY(3px);
+      margin: 10px 0;
+      + {
+        label {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    #isEditDB {
+      width: 20px;
+      height: 20px;
+      transform: translateY(3px);
+      margin: 10px 0;
+      + {
+        label {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    #isReadDB {
+      width: 20px;
+      height: 20px;
+      transform: translateY(3px);
+      margin: 10px 0;
+      + {
+        label {
+          display: inline-block;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+.actions-wrapper {
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+
+    border: 1px solid #e0e7ff;
+    box-shadow: 3px 4px 9px 3px #e0e7ff;
+
+    .form-group {
+      input:checked {
+        color: #d05818 !important;
+      }
+    }
+
+    button {
+      margin: 0;
+
+      background-color: #d05818;
+      border-color: #d05818;
+    }
+  }
+}

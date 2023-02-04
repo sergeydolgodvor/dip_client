@@ -1,0 +1,12 @@
+export { default as Header } from './Header';
+export { default as Footer } from './Footer';
+export { default as ActivationEmail } from './ActivationEmail';
+export { default as NotFound } from './NotFound';
+export { default as ForgotPassword } from './ForgotPassword';
+export { default as ResetPassword } from './ResetPassword';
+export { default as UserManual } from './UserManual';
+export { default as TaskPage } from './Tasks/TaskPage';
+export { default as TaskCreate } from './Tasks/TaskCreate';
+export { default as Tracking } from './Tasks/Tracking';
+export { default as EditDocument } from './EditDocument';
+export { default as DataBase } from './DataBase';
